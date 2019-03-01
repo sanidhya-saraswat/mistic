@@ -1,0 +1,16 @@
+.base-left-div
+{
+flex-basis:25%;
+background:#e8ebff;
+display: flex;
+flex-direction: column;
+padding:10px;
+height: 100%;
+box-sizing: border-box;
+}
+.base-left-div:first-child
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: #00000059;
+}

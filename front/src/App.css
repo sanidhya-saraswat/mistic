@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 10s linear;
   height: 40vmin;
 }
 
@@ -30,3 +30,22 @@
     transform: rotate(360deg);
   }
 }
+.body
+{
+  width:100%;
+  height:calc(100% - 60px);
+  position: absolute;
+  top:60px;
+}
+.body > *
+{
+  height: 100%;
+}
+.header
+{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index: 10;
+}
+
