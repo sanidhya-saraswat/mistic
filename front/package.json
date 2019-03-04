@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ../back/public && mv build ../back/public",
+    "build": "react-scripts build && rm -rf ../public && mv build ../public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
